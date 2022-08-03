@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>왜 git에서 jenkins로 안가지?</h1>
+        <h1 className={styles.title}>Checking Git Webhook</h1>
 
         <Button variant="contained">button color test</Button>
 
