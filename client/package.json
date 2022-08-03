@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3000",
     "lint": "next lint"
   },
   "dependencies": {
@@ -13,16 +13,34 @@
     "@emotion/styled": "^11.9.3",
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.9.1",
+    "@types/styled-components": "^5.1.21",
     "next": "12.2.3",
+    "next-images": "^1.8.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "styled-components": "^5.3.3",
+    "use-interval": "^1.4.0"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
     "@types/node": "18.0.6",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^2.0.6",
+    "dotenv": "^16.0.0",
     "eslint": "8.20.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "12.2.3",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.1",
     "typescript": "4.7.4"
   }
 }
